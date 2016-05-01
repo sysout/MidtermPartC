@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Athlete name:</strong>
+  <%= @olympic.athlete_name %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @olympic.event %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @olympic.country %>
+</p>
+
+<p>
+  <strong>Medal type:</strong>
+  <%= @olympic.medal_type %>
+</p>
+
+<p>
+  <strong>Event date:</strong>
+  <%= @olympic.event_date %>
+</p>
+
+<%= link_to 'Edit', edit_olympic_path(@olympic) %> |
+<%= link_to 'Back', olympics_path %>
