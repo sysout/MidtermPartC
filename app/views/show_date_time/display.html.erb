@@ -1,5 +1,9 @@
 <p>Date and Time: <%= @datetime %><br>
   <%= image_tag @timeimg, :class => "img" %>
+<!-- missing ending p tag-->
+</p>
 
 <p>Month: <%= @monthname %><br />
-  <% image_tag @monthimg, :class => "img" %></p>
+  <!-- if you want to output to page, you use <\%= not <\% -->
+  <!-- it's image_tag not image-tag -->
+  <%= image_tag @monthimg, :class => "img" %></p>

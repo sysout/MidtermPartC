@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html>
 <head>
-  <title>MidtermPartC</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+  <!-- missing ending title tag-->
+  <title><%= @title %></title>
+  <!-- It's stylesheet_link_tag not stylesheet_tag -->
+  <%= stylesheet_link_tag "application" %>
+  <!-- missing ending head tag-->
 </head>
 <body>
-
+<h2><%= @title %></h2>
+<!-- output should enclosed in <\%= %> -->
 <%= yield %>
-
 </body>
 </html>
