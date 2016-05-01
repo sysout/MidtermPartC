@@ -1,6 +1,8 @@
 /*
-*= require_self
-*= require_tree .
+ * should add 1 space before *=
+ *= require_tree .
+ * should add 1 space before *=
+ *= require_self
 */
 
 body {
@@ -9,7 +11,9 @@ body {
     font-size: 110%;
     /* text-color is not a valid css property*/
     color: navy;
+    /* it's background-color */
     background-color: lightblue;
+/* missing ending } */
 }
 /* . mean class, but img is not a class, it's a html tag */
 img { width: 200px; }
