@@ -15,5 +15,5 @@ body {
     background-color: lightblue;
 /* missing ending } */
 }
-/* . mean class, but img is not a class, it's a html tag */
-img { width: 200px; }
+
+.img { width: 200px; }
