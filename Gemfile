@@ -42,5 +42,5 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
+  gem 'pg'
 end
